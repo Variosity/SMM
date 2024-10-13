@@ -175,16 +175,17 @@ footer {
     .services {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center; /* Centers the cards */
-        padding: 0 20px;
-        max-width: 1200px; /* Limits the total width of the services section */
-        margin: 0 auto; /* Centers the whole services section */
+        justify-content: center; /* Ensures the service cards are centered */
+        gap: 20px; /* Adds space between the cards */
+        padding: 0;
+        max-width: 1200px; /* Sets a limit to the width of the section */
+        margin: 0 auto; /* Centers the entire services section within the page */
     }
 
     .service-card {
-        margin: 20px;
-        width: calc(45% - 40px);
-        box-sizing: border-box;/* Two cards in a row with some margin */
+        flex: 0 1 calc(33.33% - 40px); /* Three cards in a row */
+        margin: 20px; /* Space around each card */
+        box-sizing: border-box;
     }
 
     .service-card h3 {
