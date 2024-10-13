@@ -175,13 +175,15 @@ footer {
     .services {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center; /* Centers the cards */
         padding: 0 20px;
+        max-width: 1200px; /* Limits the total width of the services section */
+        margin: 0 auto; /* Centers the whole services section */
     }
 
     .service-card {
         margin: 20px;
-        width: calc(50% - 40px);
+        width: calc(45% - 40px);
         box-sizing: border-box;/* Two cards in a row with some margin */
     }
 
