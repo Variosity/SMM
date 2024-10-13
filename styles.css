@@ -181,7 +181,8 @@ footer {
 
     .service-card {
         margin: 20px;
-        width: calc(45% - 20px); /* Two cards in a row with some margin */
+        width: calc(50% - 40px);
+        box-sizing: border-box;/* Two cards in a row with some margin */
     }
 
     .service-card h3 {
